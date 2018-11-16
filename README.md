@@ -1,4 +1,4 @@
-# vue-datepicker
+# vue-datepicker-fork
 calendar and datepicker component with material design for Vue.js
 
 # Demo
@@ -17,7 +17,7 @@ The demo page is [HERE](http://hilongjw.github.io/vue-datepicker/demo.html).
 ## npm
 
 ```shell
-$ npm install vue-datepicker
+$ npm install vue-datepicker-fork
 ```
 
 # Usage
@@ -25,10 +25,10 @@ $ npm install vue-datepicker
 ```html
 <script>
 // for Vue 1.0
-import myDatepicker from 'vue-datepicker/vue-datepicker-1.vue'
+import myDatepicker from 'vue-datepicker-fork/vue-datepicker-1.vue'
 
 // for Vue 2.0
-import myDatepicker from 'vue-datepicker'
+import myDatepicker from 'vue-datepicker-fork'
 
 export default {
   data () {
