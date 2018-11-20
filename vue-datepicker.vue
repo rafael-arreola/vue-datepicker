@@ -492,7 +492,7 @@ exports.default = {
                 min: '00'
             },
             dayList: [],
-            selectedDays: []
+            selectedDays: [],
             selectedDaysPure: []
         };
     },
@@ -807,11 +807,11 @@ exports.default = {
                 var ctime = this.checked.year + '-' + this.checked.month + '-' + this.checked.day + ' ' + this.checked.hour + ':' + this.checked.min;
                 this.checked.currentMoment = (0, _moment2.default)(ctime, 'YYYY-MM-DD HH:mm');
                 this.date.time = (0, _moment2.default)(this.checked.currentMoment).format(this.option.format);
-                this.pureDate = moment(this.checked.currentMoment)
+                this.pureDate.time = _moment(this.checked.currentMoment)
             } else {
                 var daysPure = this.selectedDays;
                 this.date.time = JSON.stringify(this.selectedDays);
-                this.pureDate = daysPure;
+                this.pureDate.time = daysPure;
             }
             this.showInfo.check = false;
             this.$emit('change', this.date.time);

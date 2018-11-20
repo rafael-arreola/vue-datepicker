@@ -1,6 +1,6 @@
 {
   "name": "vue-datepicker-fork",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "calendar and datepicker component with material design for Vue.js ",
   "main": "vue-datepicker.vue",
   "scripts": {
